@@ -14,7 +14,7 @@ option(BUILD_EXAMPLES "Build examples" ON)
 
 include(GNUInstallDirs)
 
-find_package(ZLIB REQUIRED)
+
 include_directories(${ZLIB_INCLUDE_DIRS})
 
 set(spng_SOURCES spng/spng.c)
